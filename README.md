@@ -12,7 +12,7 @@ by John Clark Graig
 
 The 119 programs were tested and converted to wav files.  Five programs had minor bugs that were fixed.
 
-The program title, the stating page number describing the program and input, the Basic source file, the Basic image size, and program labels are listed in the table below.  Data `A()` means that the program may use array values `A(27)` and above to store application data.  If insufficient memory is available to allocate `A(27)` and higher, then the program may terminate with a memory error.
+The program title, the starting page number describing the program and input, the Basic source file, the Basic image size, and program labels are listed in the table below.  Data `A()` means that the program may use array values `A(27)` and above to store application data.  If insufficient memory is available to allocate `A(27)` and higher, then the program may terminate with a memory error.
 
 | title | page | file | size | data | labels |
 | ----- | ---- | ---- | ---- | ---- | ------ |
