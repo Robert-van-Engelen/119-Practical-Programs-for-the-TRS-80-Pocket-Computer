@@ -191,7 +191,7 @@ The Basic programs are converted to wav form using [PocketTools](https://www.pei
 This creates the `bas2img`, `bin2wav` and `wav2bin` utilities.  The conversion of a Basic file to a wav file takes two steps:
 
     bas2img --pc=1211 FILENAME.bas
-    bin2wav FILENAME.img
+    bin2wav --pc=1211 FILENAME.img
 
 The special characters **E** (decimal exponent), π (pi) and √ (square root) are specified as `[E]`, `[PI]` and `[SQR]` in the Basic source code.  These notations are converted by PocketTools to the corresponding character codes for the TRS-80/PC-1211.
 
