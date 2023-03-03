@@ -5,7 +5,7 @@ by John Clark Graig
 
 [![119 Practical Programs for the TRS-80 Pocket Computer](119-programs.png)](119-practical-programs-for-the-TRS-80.pdf)
 
-[This brilliant vintage programming book](119-practical-programs-for-the-TRS-80.pdf) published in 1982 has a special place in our hearts and minds.  It introduced practical numerical programs for a tiny computer, the famous 1980 [Sharp PC-1211](https://en.wikipedia.org/wiki/Sharp_PC-1211) rebadged the TRS-80 Pocket Computer ("PC-1"), known as the first pocket computer in existance.  For modern standards it is not impressive.  However, in 1980, the same year the Sinclair ZX80 was introduced and two years before the Commodore 64 was launched, this Pocket Computer already had an enhanced version of Basic with line labelling, computed GOTOs, INPUT and DATA statements accept expressions instead of just constants, and performs computations with high accuracy in 10+2 digit decimal floating point.
+[This brilliant vintage programming book](119-practical-programs-for-the-TRS-80.pdf) published in 1982 has a special place in our hearts and minds.  It introduced practical numerical programs for a tiny computer, the famous 1980 [Sharp PC-1211](https://en.wikipedia.org/wiki/Sharp_PC-1211) rebadged the TRS-80 Pocket Computer ("PC-1"), known as the first pocket computer in existance.  For modern standards it is not impressive.  However, in 1980, the same year the Sinclair ZX80 was introduced and two years before the Commodore 64 was launched, this Pocket Computer already had an enhanced version of Basic with line labelling, computed GOTOs, INPUT and DATA statements that acceptiexpressions instead of just constants, and computations with high accuracy in 10+2 digit decimal floating point.
 
 119 programs
 ------------
@@ -141,7 +141,7 @@ How to load the programs
 
 Enter `CLOAD"` on your TRS-80 or PC-1211 equipped with a cassette interface or a printer unit.  Play the =.wav file to load the "All-Purpose Driver" program first.
 
-Enter `CLOAD1"` (with a `1`) on your TRS-80/PC-1211.  This command merges (acutally appends) the next program to the existing ones.  Play the wav file of the Basic program you want to merge.
+Enter `CLOAD1"` (with a `1`) on your TRS-80/PC-1211.  This command merges (actually appends) the next program to the existing ones.  Play the wav file of the Basic program you want to merge.
 
 **Note:** If the last program loaded has a line 900 or 910 with an `"FX"` labelled function, then remove this line first before loading additional programs.  Loading additional programs makes it impossible to edit the previous programs.  Therefore, line `900 "FX"` becomes non-modifyable, which is not what we want.
 
