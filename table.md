@@ -66,9 +66,9 @@
 | Integrals - Cosine Integral | 143 | [CI.bas](CI.bas) | 115 | | CI |
 | Integrals - Exponential Integral | 145 | [EI.bas](EI.bas) | 81 | | EI |
 | Integrals - Sine Integral | 147 | [SI.bas](SI.bas) | 107 | | SI |
-| Integration -  Weddle's Rule | 155 | [WEDD.bas](WEDD.bas) | 162 | | WEDD FX |
 | Integration - Gaussian Quadrature | 149 | [GQ.bas](GQ.bas) | 332 | | GQ FX FX |
 | Integration - Simpson's Rule | 153 | [SIMP.bas](SIMP.bas) | 162 | | SIMP FX |
+| Integration - Weddle's Rule | 155 | [WEDD.bas](WEDD.bas) | 162 | | WEDD FX |
 | Interpolation - Lagrange | 159 | [LGI.bas](LGI.bas) | 187 | A() | LGI |
 | Interpolation - Linear | 161 | [LI.bas](LI.bas) | 113 | | LI |
 | Least Common Multiple | 163 | [LCM.bas](LCM.bas) | 74 | | LCM |
