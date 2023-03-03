@@ -94,7 +94,7 @@ The program title, the stating page number describing the program and input, the
 | Logarithms in any Base | 171 | [LB.bas](LB.bas) | 34 | | LB |
 | Matrix Inversion | 173 | [MATI.bas](MATI.bas) | 537 | A() | MATI MATOUT |
 | Mean And Standard Deviation - Grouped Data | 177 | [MSDG.bas](MSDG.bas) | 110 | | MSDG |
-| Mean And Standard Deviation - Ungrouped Data | 177 | [MSD.bas](MSD.bas) | 97 | | MSD |
+| Mean And Standard Deviation - Ungrouped Data | 179 | [MSD.bas](MSD.bas) | 97 | | MSD |
 | Means - Arithmetic, Geometric, And Harmonic | 181 | [MNS.bas](MNS.bas) | 124 | | MNS |
 | Metric Conversions | 183 | [CONV.bas](CONV.bas) | 67 | | G.L M.K |
 | Miles Per Gallon | 185 | [MPG.bas](MPG.bas) | 156 | | MPG |
