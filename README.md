@@ -143,14 +143,14 @@ Enter `CLOAD"` on your TRS-80 or PC-1211 equipped with a cassette interface or a
 
 Enter `CLOAD1"` (with a `1`) on your TRS-80/PC-1211.  This command merges (acutally appends) the next program to the existing ones.  Play the wav file of the Basic program you want to merge.
 
-**Note:** If the last program loaded has a line 900 or higher with an `"FX"` labelled function, then remove this line first before loading additional programs.  Loading additional programs makes it impossible to edit the previous programs.  Therefore, line `900 "FX"` becomes non-modifyable, which is not what we want.
+**Note:** If the last program loaded has a line 900 or 910 with an `"FX"` labelled function, then remove this line first before loading additional programs.  Loading additional programs makes it impossible to edit the previous programs.  Therefore, line `900 "FX"` becomes non-modifyable, which is not what we want.
 
 All of the Basic programs use different labels and can be loaded together, except the two programs SSS.bas and SSA.bas that use the same set of labels.
 
 How to create collections of programs
 -------------------------------------
 
-The combine.sh script takes a list of Basic programs with suffix .bas to combine them into one combined.bas by merging them.  The script removes lines 900 and higher to avoid saving non-modifyable `900 "FX"` labelled functions.  The combined.bas program should be converted with PocketTools to a wav file.  See the next section on PocketTools for details.
+The combine.sh script takes a list of Basic programs with suffix .bas to combine them into one combined.bas by merging them.  The script removes lines 900 and 910 labelled `"FX"` to avoid saving non-modifyable `900 "FX"` labelled functions.  The combined.bas program should be converted with PocketTools to a wav file.  See the next section on PocketTools for details.
 
 The total size of the Basic image should not exceed 1424 bytes.  The table lists the image size of each program.  Some programs may need `A()` data space as well, as indicated in the table.
 
