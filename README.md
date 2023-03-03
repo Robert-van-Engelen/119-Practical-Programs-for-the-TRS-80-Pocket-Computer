@@ -152,6 +152,30 @@ How to create collections of programs
 
 The combine.sh script takes a list of Basic programs with suffix .bas to combine them into one combined.bas by merging them.  The script removes lines 900 and 910 labelled `"FX"` to avoid saving non-modifyable `900 "FX"` labelled functions.  The combined.bas program should be converted with PocketTools to a wav file.  See the next section on PocketTools for details.
 
+For example, the following command creates and plays one combined.wav file for six programs, including the All-Purpose Driver that is always included:
+
+    ./combine.sh 2DATES.bas DATE.bas EASTER.bas MOON.bas DJ.bas
+
+    Converting BAS file combined.bas to combined.wav
+
+    Target file: BASIC image, format of PC-1211
+    File combined.bas was opened
+    File size of combined.bas is 1877 bytes
+
+    bas2img: Merged line number 10: not higher than previous line number 90
+    bas2img: Merged line number 100: not higher than previous line number 250
+    File combined.img was written
+     with 1136 bytes, 2 warning(s)
+    Pocket format : 0x80 <- Basic (or RSV) image with intermediate code, PC-1211
+    Save name    : 
+    File combined.wav was written.
+
+    Saved combined.img combined.wav
+
+    Sending combined.wav (must turn volume up to max)
+
+The two warnings should be ignored.  These are just to confirm that the programs will be merged.  The resulting image size is 1136 bytes.
+
 The total size of the Basic image should not exceed 1424 bytes.  The table lists the image size of each program.  Some programs may need `A()` data space as well, as indicated in the table.
 
 All of the Basic programs use different labels and can in principle be combined, except the two programs SSS.bas and SSA.bas that use the same set of labels.
