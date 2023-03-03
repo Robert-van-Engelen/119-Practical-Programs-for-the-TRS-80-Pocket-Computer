@@ -10,6 +10,8 @@ This brilliant vintage programming book published in 1982 has a special place in
 119 programs
 ------------
 
+The 119 programs were tested and converted to wav files.  Five programs had minor bugs that were fixed.
+
 The program title, the stating page number describing the program and input, the Basic source file, the Basic image size, and program labels are listed in the table below.  Data `A()` means that the program may use array values `A(27)` and above to store application data.  If insufficient memory is available to allocate `A(27)` and higher, then the program may terminate with a memory error.
 
 | title | page | file | size | data | labels |
@@ -175,11 +177,13 @@ Tips
 - Pressing `SHIFT-=` when the computer is waiting on input brings you back to the top command line.  No need to press ON.
 - Printing of the output works by switching the printer on and pressing ON twice
 
-Fixed bugs in the original book
--------------------------------
+Fixed bugs in the programs
+--------------------------
 
-GA.bas: fixed bug in line 40 typo in constant parameter
-LOAN.bas: fixed bug in line 80 missing ^ operator
-MPH.bas: fixed bug in line 10 missing minus sign in exponent
-POOL.bas: fixed bug in line 60 missing multiplication by S
-T3D.bas: fixed bug in line 70 assignment typo
+These bugs were found and fixed:
+
+- GA.bas: fixed bug in line 40 typo in constant parameter
+- LOAN.bas: fixed bug in line 80 missing ^ operator
+- MPH.bas: fixed bug in line 10 missing minus sign in exponent
+- POOL.bas: fixed bug in line 60 missing multiplication by S
+- T3D.bas: fixed bug in line 70 assignment typo
