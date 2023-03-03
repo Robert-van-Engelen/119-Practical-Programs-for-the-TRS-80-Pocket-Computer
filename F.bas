@@ -1,0 +1,12 @@
+' p.109 Fractions
+10 "F+" GOSUB 50 : A=AD+BC : B=BD : GOTO 90
+20 "F-" GOSUB 50 : A=AD-BC : B=BD : GOTO 90
+30 "F*" GOSUB 50 : A=AC : B=BD : GOTO 90
+40 "F/" GOSUB 50 : A=AD : B=BC : GOTO 90
+50 INPUT "N1?",A,"D1?",B
+60 INPUT "N2?",C,"D2?",D
+70 RETURN
+80 "FLT" INPUT "N?",A,"D?",B
+90 X=A : Y=B
+100 Z=X-Y*INT(X/Y) : X=Y :Y=Z : IF Z THEN 100
+110 A=A/X : B=B/X : PRINT A;" / ";B : GOTO 1

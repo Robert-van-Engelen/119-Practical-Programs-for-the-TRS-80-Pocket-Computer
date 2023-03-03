@@ -1,0 +1,11 @@
+' p.205 Pi - By Dartboard
+10 "PI" D=0 : H=0
+20 GOSUB 100 : S=R : GOSUB 100
+30 D=D+1 : H=H+(SS+RR<1)
+40 P=4H/D
+50 USING "####"
+60 PAUSE "DARTS=";D;" HITS=";H
+70 USING "##.####"
+80 PAUSE "[PI]=";P
+90 GOTO 20
+100 R=[PI]+983R : R=2*(R-INT R)-1 : RETURN

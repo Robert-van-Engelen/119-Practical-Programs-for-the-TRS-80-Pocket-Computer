@@ -1,0 +1,7 @@
+' p.165 Limit of a Function
+10 "LIM" INPUT "LIMIT AT X=?",Z : L=Z-[PI] : R=Z+[PI]
+20 L=(L+Z)/2 : R=(R+Z)/2
+30 X=L : GOSUB "FX" : A=Y
+40 X=R : GOSUB "FX" : B=Y
+50 PAUSE "FROM LEFT, FROM RIGHT" : PRINT A,B : GOTO 20
+900 "FX" RADIAN : Y=SIN X/X : RETURN

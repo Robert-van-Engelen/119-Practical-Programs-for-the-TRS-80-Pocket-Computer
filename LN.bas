@@ -1,0 +1,6 @@
+' p.167 Line Analysis
+10 "LN" CLEAR : INPUT "X1?",X,"Y1?",Y
+20 INPUT "SLOPE?",M,"X2?",A : B=MA-MX+Y : GOTO 50
+30 IF M INPUT "Y2?",B : A=(MX+B-Y)/M : GOTO 50
+40 INPUT "X2?",A,"Y2?",B : M=(Y-B)/(X-A)
+50 PRINT X,Y : PRINT A,B : PRINT "SLOPE=";M : GOTO 1

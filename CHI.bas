@@ -1,0 +1,4 @@
+' p.25 Chi-Square
+10 "CHI" CLEAR
+20 INPUT "OBS FREQ?",X,"EXP FREQ?",E : A=A+XX/E-2X+E : GOTO 20
+30 PRINT "CHI^2=";A : GOTO 1

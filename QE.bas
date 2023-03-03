@@ -1,0 +1,5 @@
+' p.233 Quadratic Equations
+10 "QE" INPUT "AX^2+BX+C=0 A?",A,"B?",B,"C?",C
+20 D=(BB-4AC)/4/AA : E=-B/2/A : F=[SQR]ABS D
+30 IF D LET S=E-F : PRINT E+F,S : GOTO 1
+40 PRINT "COMPLEX RESULT FOLLOWS" : PRINT "REAL=";E : PRINT "+/-(I)=";F : GOTO 1

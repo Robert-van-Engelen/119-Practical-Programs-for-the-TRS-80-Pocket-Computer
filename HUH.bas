@@ -1,0 +1,9 @@
+' p.115 Games - "Huh?"
+10 "HUH" H=0 : L=1 : Q=0 : Z=0
+20 L=10L*(L<[E]10)+L*(L>[E]9) : R=[PI]+983R : R=R-INT R : T=[PI]+997T : T=T-INT T
+30 N=INT(LR+LT/997) : N=N+(N=0) : PAUSE N
+40 J=INT LOG 10N : INPUT "YOUR GUESS?",G : IF G=N PAUSE "YES!" : GOTO 60
+50 PAUSE "NO!" : L=L/(1+99*(L>1)) : H=H-J
+60 H=H+J : Z=Z+J : Q=Q+1 : IF Q<13 THEN 20
+70 BEEP 3 : S=100H/Z : USING "####.##"
+80 PRINT "YOUR SCORE=";S;"%" : GOTO 1

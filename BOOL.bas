@@ -1,0 +1,9 @@
+' p.9 Boolean Logic Truth Table [ARRAY]
+10 "BOOL" CLEAR : INPUT "NO. INPUTS?",Z : USING "###"
+20 GOSUB 100 : FOR W=1 TO Z : PAUSE "INPUT #";W;"=";A(W) : NEXT W
+30 X=0<X : PRINT "X=";X : Y=Z+1
+40 Y=Y-1 : IF Y=0 GOTO 1
+50 A(Y)=0=A(Y) : IF A(Y) GOTO 20
+60 GOTO 40
+100 D=0=A : E=0=B : F=0=C
+110 X=DEC+DBF+AEF+ABC : RETURN

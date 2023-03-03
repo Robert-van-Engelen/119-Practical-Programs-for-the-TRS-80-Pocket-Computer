@@ -1,0 +1,5 @@
+' p.231 Prime Numbers
+10 "PRI" INPUT "START N?",X : X=INT(X/2)*2-1
+20 X=X+2 : Y=1
+30 Y=Y+2 : IF Y>[SQR]X PRINT X;" IS PRIME" : GOTO 20
+40 Z=X/Y : GOTO 30-10*(Z=INT Z)

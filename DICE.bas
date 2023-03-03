@@ -1,0 +1,3 @@
+' p.65 Dice Thrower
+10 "DICE" GOSUB "R" : A=1+INT 6R : GOSUB "R" : PRINT 1+INT 6R;A : GOTO 10
+20 "R" R=[PI]+983R : R=R-INT R : RETURN

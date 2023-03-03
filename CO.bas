@@ -1,0 +1,4 @@
+' p.29 Combinations
+10 "CO" INPUT Y,X : C=Y : IF Y-X>X LET X=Y-X
+20 FOR Z=1 TO X : C=C/Z : IF Y-Z>Y-X LET C=CY-CZ
+30 NEXT Z : PRINT C : GOTO 1

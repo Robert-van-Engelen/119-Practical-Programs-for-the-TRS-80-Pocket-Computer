@@ -1,0 +1,4 @@
+' p.209 Plotting - Three Dimensions
+10 "3D" INPUT "ROTATION ANGLE?",R,"TILT ANGLE?",T
+20 INPUT "X?",X,"Y?",Y,"Z?",Z : A=X*COS R-Y*SIN R : B=Z*COS T-(X*SIN R+Y*COS R)*SIN T : PRINT A,B : GOTO 20
+30 GOTO 1

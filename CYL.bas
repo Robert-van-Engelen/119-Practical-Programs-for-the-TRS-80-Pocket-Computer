@@ -1,0 +1,12 @@
+' p.37 Coordinate Systems for Three Dimensions
+10 "CYL" INPUT "R?",R,"THETA?",T,"Z?",C
+20 X=R*COS T : Y=R*SIN T : GOTO 200
+30 "SPH" INPUT "RHO?",H,"THETA?",T,"PHI?",P
+40 X=H*COS T*SIN P : Y=H*SIN T*SIN P : C=H*COS P : GOTO 200
+50 "REC" INPUT "X?",X,"Y?",Y,"Z?",C
+200 R=[SQR](XX+YY) : T=ACS(X/R) : T=T*SGN Y+T*(Y=0)
+210 H=[SQR](XX+YY+CC) : P=ACS(C/H)
+220 PRINT "REC->" : PRINT "X=";X : PRINT "Y=";Y : PRINT "Z=";C
+230 PRINT "CYL->" : PRINT "R=";R : PRINT "THETA=";T : PRINT "Z=";C
+240 PRINT "SPH->" : PRINT "RHO=";H : PRINT "THETA=";T : PRINT "PHI=";P
+250 GOTO 1

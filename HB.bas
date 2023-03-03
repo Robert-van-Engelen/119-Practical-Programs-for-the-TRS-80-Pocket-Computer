@@ -1,0 +1,6 @@
+' p.137 Histogram Bins [ARRAY]
+10 "HB" CLEAR : G=7 : INPUT "BIN WIDTH?",B,"STARTING AT?",C
+20 INPUT "VALUE?",D : E=INT((D-C)/B)+8 : A(E)=A(E)+1 : F=F*(E<=F)+E*(E>F) : GOTO 20
+30 G=G+1 : IF G>F THEN 1
+40 D=BG-8B+C : E=D+B : PRINT "BIN RANGE->"
+50 PRINT D,E : PRINT "TALLY=";A(G) : GOTO 30

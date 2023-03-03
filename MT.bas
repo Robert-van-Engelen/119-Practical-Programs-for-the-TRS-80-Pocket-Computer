@@ -1,0 +1,9 @@
+' p.107 Flash Cards - Multiplication Table
+10 "MT" H=0 : N=10 : INPUT "LARGEST NUMBER?",N
+20 FOR Z=1 TO 20 : GOSUB 80 : A=B : GOSUB 80
+30 PAUSE A;" * ";B : INPUT Q : GOTO 50
+40 GOTO 30
+50 IF Q=AB PAUSE "YES!!!" : H=H+1 : GOTO 70
+60 BEEP 3 : C=AB : FOR Y=1 TO 5 : PAUSE A;" * ";B;" = ";C;"!!!" : NEXT Y
+70 NEXT Z : S=5H : BEEP 5 : PRINT "YOUR SCORE IS ";S;"%" : GOTO 1
+80 R=[PI]+997R : R=R-INT R : B=1+INT(N-RRN) : RETURN

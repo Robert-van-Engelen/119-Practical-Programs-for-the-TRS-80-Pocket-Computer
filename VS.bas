@@ -1,0 +1,5 @@
+' p.281 Volume - Defined by Four Cartesian Space Points
+10 "VS" FOR Z=1 TO 4 : W=3Z-2 : X=W+1 : Y=3Z : INPUT "X?",A(W),"Y?",A(X),"Z?",A(Y) : NEXT Z
+20 Q=AHL+BIJ+CGK-CHJ-BGL-AIL+AEI+BFG+CDH-CEG-BDI-AFH
+30 R=DHL+EIJ+FGK-FHJ-EGL-DIK+AEL+BFJ+CDK-CEJ-BDL-AFK
+40 V=ABS(Q-R)/6 : PRINT "VOL=";V : GOTO 1
