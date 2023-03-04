@@ -19,4 +19,4 @@ do
     echo '|'
     rm -f ${f%.*}.img
   fi
-done | sort
+done | sort -f

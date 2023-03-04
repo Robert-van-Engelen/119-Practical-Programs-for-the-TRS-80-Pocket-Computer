@@ -35,7 +35,6 @@
 | Distribution - Hypergeometric | 71 | [HYP.bas](HYP.bas) | 176 | | HYP |
 | Distribution - Normal | 73 | [NORM.bas](NORM.bas) | 145 | | NORM |
 | Distribution - Poisson | 75 | [POI.bas](POI.bas) | 62 | | POI |
-| EXP(X) for Large X | 99 | [EX.bas](EX.bas) | 47 | | EX |
 | Electronics - Balanced Bridge | 77 | [BRI.bas](BRI.bas) | 116 | | BRI |
 | Electronics - Decibels | 79 | [DCBL.bas](DCBL.bas) | 163 | | DCBL |
 | Electronics - Ohm's Law | 81 | [OHM.bas](OHM.bas) | 174 | | OHM |
@@ -45,6 +44,7 @@
 | Error Function - And Complement | 93 | [ERF.bas](ERF.bas) | 222 | | ERF |
 | Euler Function | 95 | [EU.bas](EU.bas) | 103 | | EU |
 | Euler Numbers | 97 | [EN.bas](EN.bas) | 73 | | EN |
+| EXP(X) for Large X | 99 | [EX.bas](EX.bas) | 47 | | EX |
 | Factorial - Three Versions | 101 | [FA.bas](FA.bas) | 117 | | FA1 FA2 FA3 |
 | Factors of a Positive Integer | 103 | [FS.bas](FS.bas) | 71 | | FS |
 | Fibonacci Numbers | 105 | [FIB.bas](FIB.bas) | 57 | | FIB |
