@@ -12,6 +12,8 @@ by John Clark Graig
 
 The 119 programs were tested and converted to wav files.  Five programs had minor bugs that were fixed.
 
+Multiple programs can be loaded by merging them with `CLOAD 1"`, see [the next section](#how-to-load-the-programs) for details.  You can also create a collection of programs to load at once with `CLOAD"`, see [the section further below](#how-to-create-collections-of-programs).
+
 The program title, the starting page number describing the program and input, the Basic source file, the Basic image size, and program labels are listed in the table below.  Data `A()` means that the program may use array values `A(27)` and above to store application data.  If insufficient memory is available to allocate `A(27)` and higher, then the program may terminate with a memory error.
 
 | title | page | file | size | data | labels |
@@ -141,7 +143,7 @@ How to load the programs
 
 Enter `CLOAD"` on your TRS-80 or PC-1211 equipped with a cassette interface or a printer unit.  Play the =.wav file to load the "All-Purpose Driver" program first.
 
-Enter `CLOAD1"` (with a `1`) on your TRS-80/PC-1211.  This command merges (actually appends) the next program to the existing ones.  Play the wav file of the Basic program you want to merge.
+Enter `CLOAD 1"` (with a `1`) on your TRS-80/PC-1211.  This command merges (actually appends) the next program to the existing ones.  Play the wav file of the Basic program you want to merge.
 
 **Note:** If the last program loaded has a line 900 or 910 with an `"FX"` labelled function, then remove this line first before loading additional programs.  Loading additional programs makes it impossible to edit the previous programs.  Therefore, line `900 "FX"` becomes non-modifyable, which is not what we want.
 
